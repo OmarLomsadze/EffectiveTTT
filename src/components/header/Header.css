@@ -1,0 +1,19 @@
+h1 {
+    margin: 0;
+}
+.nav-div {
+    font-family: 'Staatliches', cursive;
+    background-color: black;
+    color:white;
+    height: 10vh;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 395px) {
+    .nav-div h1 {
+        font-size: 1.5rem;
+    }
+}

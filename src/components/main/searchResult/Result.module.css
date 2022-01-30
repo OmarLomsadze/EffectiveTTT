@@ -1,0 +1,21 @@
+.user {
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 5px;
+}
+.user:hover {
+    background-color: white;
+    color: black;
+}
+.userName {
+    margin-left: 2vw;
+}
+.userImg {
+    margin-right: 2vw;
+    border-radius: 50%;
+}
